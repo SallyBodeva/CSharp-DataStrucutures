@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Text;
 
@@ -166,7 +167,7 @@ public static class MyList
         }
         return nums;
     }
-    public static List<int> BothElements(List<int> list1,List<int> list2)
+    public static List<int> BothElements(List<int> list1, List<int> list2)
     {
         List<int> list_1_2 = new List<int>();
         for (int i = 0; i < list1.Count; i++)
@@ -179,7 +180,7 @@ public static class MyList
         }
         return list_1_2;
     }
-    public static List<int> SumListElements(List<int> list1,List<int> list2)
+    public static List<int> SumListElements(List<int> list1, List<int> list2)
     {
         List<int> result = new List<int>();
         for (int i = 0; i < list1.Count; i++)
@@ -188,7 +189,7 @@ public static class MyList
         }
         return result;
     }
-    public static List<int> AddUpTo10(List<int>list)
+    public static List<int> AddUpTo10(List<int> list)
     {
         List<int> changedList = new List<int>();
         for (int i = 0; i < list.Count; i++)
@@ -197,7 +198,7 @@ public static class MyList
         }
         return changedList;
     }
-    public static List<int> IncreaseWith(List<int> list1, List<int> list2,int num)
+    public static List<int> IncreaseWith(List<int> list1, List<int> list2, int num)
     {
         List<int> changedList = new List<int>();
         for (int i = 0; i < list1.Count; i++)
@@ -209,6 +210,53 @@ public static class MyList
             changedList.Add(list2[i] + num);
         }
         return changedList;
+    }
+    //Задача 4
+    public static int MaxElemnt(List<int> list)
+    {
+        return list.Max();
+    }
+    //Задача 6
+    public static double AvgValue(List<int> list)
+    {
+        return Math.Round(list.Average(), 2);
+    }
+    //Задача 7
+    public static int SumOfAbsValue(List<int> list)
+    {
+        int sum = 0;
+        for (int i = 0; i < list.Count; i++)
+        {
+            sum += Math.Abs(list[i]);
+        }
+        return sum;
+    }
+    //Задача 10
+    public static int AbsValueBuggerThanAvg(List<int> list)
+    {
+        int count = 0;
+        for (int i = 0; i < list.Count; i++)
+        {
+            if (Math.Abs(list[i]) > list.Average())
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+    //Задача 15
+    public static List<int> IncreaseByNum(List<int> list1, List<int> list2, int num)
+    {
+        List<int> result = new List<int>();
+        for (int i = 0; i < list1.Count; i++)
+        {
+            result.Add(list1[i]);
+        }
+        for (int i = 0; i < list2.Count; i++)
+        {
+            result.Add(list2[i]);
+        }
+        return result.Select(x => x + num).ToList();
     }
 }
 

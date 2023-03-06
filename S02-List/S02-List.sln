@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-ChangeList", "P02-Chang
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-BombNumbers", "P04-BombNumbers\P04-BombNumbers.csproj", "{72CBC5EA-0349-49B0-9A96-7E184D255009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P00-MyList", "P00-MyList\P00-MyList.csproj", "{AA9B7F38-4257-45DC-A997-E055B709743B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P00-MyList", "P00-MyList\P00-MyList.csproj", "{AA9B7F38-4257-45DC-A997-E055B709743B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-CardsGame", "P05-CardsGame\P05-CardsGame.csproj", "{A7687981-F258-4384-B10E-EC2EC82175D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AA9B7F38-4257-45DC-A997-E055B709743B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA9B7F38-4257-45DC-A997-E055B709743B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA9B7F38-4257-45DC-A997-E055B709743B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7687981-F258-4384-B10E-EC2EC82175D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7687981-F258-4384-B10E-EC2EC82175D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7687981-F258-4384-B10E-EC2EC82175D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7687981-F258-4384-B10E-EC2EC82175D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
