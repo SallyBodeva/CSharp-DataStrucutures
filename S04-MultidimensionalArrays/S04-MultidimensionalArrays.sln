@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-SumMatrixElements", "P0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-SumMatrixColumns", "P02-SumMatrixColumns\P02-SumMatrixColumns.csproj", "{D0204656-5DB7-4AB9-8140-E1EB89B5E30F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03-PrimaryDiagonal", "P03-PrimaryDiagonal\P03-PrimaryDiagonal.csproj", "{D3965736-2F53-4F67-A21D-E4D04673F77C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-PrimaryDiagonal", "P03-PrimaryDiagonal\P03-PrimaryDiagonal.csproj", "{D3965736-2F53-4F67-A21D-E4D04673F77C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-SymbolInMatrix", "S04-SymbolInMatrix\P04-SymbolInMatrix.csproj", "{02688C59-0AC7-4E9A-BAE3-01D6D423F75D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-SymbolInMatrix", "S04-SymbolInMatrix\P04-SymbolInMatrix.csproj", "{02688C59-0AC7-4E9A-BAE3-01D6D423F75D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
