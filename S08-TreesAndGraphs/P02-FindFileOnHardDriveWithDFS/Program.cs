@@ -10,7 +10,7 @@ namespace P02_FindFileOnHardDriveWithDFS
     {
         static void Main()
         {
-            Console.WriteLine(FileSerach.Search("C:\\Users\\EliteBook\\Desktop\\SoftUni", "test.txt"));
+            Console.WriteLine(FileSerach.Search(@"C:\", "test.txt"));
         }
     }
     public static class FileSerach
