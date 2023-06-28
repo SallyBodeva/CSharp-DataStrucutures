@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-SimpleCalculator", "P03
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-MatchingBrackets", "P04-MatchingBrackets\P04-MatchingBrackets.csproj", "{82A99FB3-A886-405D-9055-08B6A31AD8C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-PrintEvenNumbers", "P05-PrintEvenNumbers\P05-PrintEvenNumbers.csproj", "{7A47935F-4453-449B-9889-9C9071E6B2EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-PrintEvenNumbers", "P05-PrintEvenNumbers\P05-PrintEvenNumbers.csproj", "{7A47935F-4453-449B-9889-9C9071E6B2EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06-Supermarket", "P06-Supermarket\P06-Supermarket.csproj", "{181F1406-DC6E-4DA3-B77C-56DA69DA3BDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06-Supermarket", "P06-Supermarket\P06-Supermarket.csproj", "{181F1406-DC6E-4DA3-B77C-56DA69DA3BDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08-TrafficJam", "P07-HotPotato\P08-TrafficJam.csproj", "{C4A1F94E-0C36-48A9-8235-55C24E35A944}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07-TempleOfDoom", "P07-TempleOfDoom\P07-TempleOfDoom.csproj", "{82C5B239-2E0D-43C4-B50E-AC75F704FC4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{181F1406-DC6E-4DA3-B77C-56DA69DA3BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{181F1406-DC6E-4DA3-B77C-56DA69DA3BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{181F1406-DC6E-4DA3-B77C-56DA69DA3BDF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4A1F94E-0C36-48A9-8235-55C24E35A944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4A1F94E-0C36-48A9-8235-55C24E35A944}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4A1F94E-0C36-48A9-8235-55C24E35A944}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4A1F94E-0C36-48A9-8235-55C24E35A944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C5B239-2E0D-43C4-B50E-AC75F704FC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C5B239-2E0D-43C4-B50E-AC75F704FC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C5B239-2E0D-43C4-B50E-AC75F704FC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C5B239-2E0D-43C4-B50E-AC75F704FC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
