@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-ArrayRotation", "P03-Ar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-TopIntegers", "P04-TopIntegers\P04-TopIntegers.csproj", "{98241425-8415-419E-8D77-8646DBE17365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-EqualSums", "P05-EqualSums\P05-EqualSums.csproj", "{D597FD07-BE41-4875-8986-25B644725DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-EqualSums", "P05-EqualSums\P05-EqualSums.csproj", "{D597FD07-BE41-4875-8986-25B644725DF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
